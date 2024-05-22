@@ -59,7 +59,7 @@ function Card({
         <View style={styles.row}>
           <Entypo name="clock" size={16} style={styles.icon} />
           <Text style={styles.subtitle}>
-            {info.from} - {info.to} ..
+            {info.from} - {info.to}
           </Text>
         </View>
         
