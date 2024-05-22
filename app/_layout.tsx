@@ -137,7 +137,6 @@ export default function App() {
       }
 
       activeIndex.value = withTiming(activeIndex.value - 1, {duration});
-      console.log('fling up');
     });
 
   const flingDown = Gesture.Fling()
@@ -148,7 +147,6 @@ export default function App() {
       }
 
       activeIndex.value = withTiming(activeIndex.value + 1, {duration});
-      console.log('fling down');
     });
 
   return (
